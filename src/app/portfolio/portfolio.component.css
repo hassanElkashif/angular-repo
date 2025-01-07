@@ -1,0 +1,49 @@
+
+.portfolio {
+  background-color: #121212;
+  min-height: 95vh;
+}
+.left-line,
+.right-line {
+  background-color: #2c3e50;
+}
+img {
+  width: 100%;
+}
+.overlay {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.overlay i {
+  font-size: 6rem;
+}
+.card {
+  cursor: pointer;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.big {
+  background-color: rgba(13, 110, 253, 0.28);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+#big-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  border-radius: 10px;
+}
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}

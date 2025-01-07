@@ -1,0 +1,12 @@
+.contact {
+  background-color: #121212;
+}
+.left-line , .right-line{
+  background-color: #2c3e50;
+}
+.btn {
+  background-color: #1ABC9C;
+}
+.btn-primary {
+  --bs-btn-border-color: none;
+}

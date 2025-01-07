@@ -1,0 +1,14 @@
+footer {
+  background-color: #131B23;
+  padding: 7rem 0rem;
+}
+.icons i{
+  padding: 0.7rem ;
+  border: 0.1rem solid white;
+  border-radius: 100%;
+  margin: 0rem 0.5rem;
+  font-size: 1.1rem;
+}
+.copyright {
+  background-color: #2C3E50;
+}

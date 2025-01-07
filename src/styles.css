@@ -1,0 +1,10 @@
+.home,.about,.portfolio,.contact{
+  background-color: #1ABC9C;
+  height: 85vh;
+  padding-top: 6.375rem;
+}
+.left-line , .right-line{
+  width: 5rem;
+  height: 0.25rem;
+  background-color: #080808;
+}

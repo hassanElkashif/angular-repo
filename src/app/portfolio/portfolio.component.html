@@ -1,0 +1,32 @@
+<div class="portfolio d-flex text-center">
+  <div class="container">
+    <div class="row mt-4">
+      <h1 class="text-uppercase fw-bold">Portfolio Component</h1>
+      <div
+        class="star d-flex justify-content-center align-items-center mb-4 gap-3"
+      >
+        <div class="left-line"></div>
+        <i class="fa-solid fa-star"></i>
+        <div class="right-line"></div>
+      </div>
+    </div>
+    <div class="row gy-5">
+      <div class="col-md-4" *ngFor="let card of cards">
+        <div class="card" (click)="showBigImage(card.img)">
+          <img [src]="card.img" [alt]="card.alt" class="rounded-2" />
+          <div class="overlay d-flex justify-content-center align-items-center w-100 h-100 position-absolute rounded-2">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="big position-fixed d-none"
+      [class.d-block]="isBigImageVisible"
+      (click)="hideBigImage()"
+    >
+      <img [src]="bigImageSrc" alt="Big Image" id="big-img" />
+    </div>
+  </div>
+</div>
+

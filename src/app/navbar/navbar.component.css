@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #2C3E50;
+  --bs-navbar-padding-y : 1.4rem;
+}
+.navbar .container-fluid {
+  width:70% ;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.active {
+  background-color: #1ABC9C;
+  border-radius: 0.3rem;
+}
